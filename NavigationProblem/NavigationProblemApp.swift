@@ -11,7 +11,8 @@ import SwiftUI
 struct NavigationProblemApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstView()
+                .environmentObject(Model())
         }
     }
 }
